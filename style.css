@@ -34,26 +34,32 @@ body {
 
 .navbar_pages ul {
     list-style: none;
-    padding-top: 1%
+    padding-top: 1%;
 }
 
 .navbar_pages ul li {
     display: inline-block;
-    padding-left: 5%
+    padding-left: 9%
 }
 
 .navbar_pages ul li a {
     text-decoration: none;
     color: #222;
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.navbar_pages ul li:hover a {
+    color: #FC723D;
 }
 
 .navBar-header {
     display: flex;
     border-bottom: 1px solid gray;
     padding: 0% 5%;
-    box-shadow: 1px 2px 3px grey
+    box-shadow: 1px 0px 3px grey;
+    opacity: .8;
 }
 
 /*navBar css end here*/
@@ -62,7 +68,7 @@ body {
 
 section.slide_header-sec {
     display: flex;
-    padding: 7% 5%;
+    padding: 5%;
 }
 
 .slide-header-textArea {
@@ -177,13 +183,55 @@ section.slide_header-sec {
 }
 
 /*service section end here*/
+/*recepies make instraction section start here*/
+.burger-recipices {
+    width: 84%;
+    display: flex;
+    margin: auto;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.recipies-make-description {
+    width: 50%;
+    padding: 3%;
+}
+
+.recipies-make-description h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: .9;
+    margin: 0;
+}
+
+.recipies-make-description span {
+    font-size: .9rem;
+    opacity: .7;
+}
+
+.recipies-make-description p {
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.recipies-img {
+    width: 50%;
+    border-left: 1px solid gray;
+}
+
+.recipies-img img {
+    width: 100%;
+    height: 100%;
+}
 
 /*social media section start here*/
 section.social-media {
     width: 76%;
     margin: auto;
     padding: 4%;
-    margin-top: 4%;
+    margin-top: 9%;
     border-radius: 20px;
     box-shadow: 0px 1px 10px #bbbaba;
     display: flex;
@@ -201,13 +249,13 @@ section.social-media {
 
 /*social media section end here*/
 /*footer section start here*/
-footer.bottom-sec {
-    padding-top: 8vh;
-    padding-bottom: 30vh;
+.bottom-sec {
+    padding-top: 1%;
+    padding-bottom: 6%;
     color: #fff;
     background-color: #222;
     text-align: center;
-    margin-top: 22vh;
+    margin-top: 9%;
 }
 
 footer.bottom-sec h1 span {
@@ -222,3 +270,5 @@ footer.bottom-sec h1 {
 footer.bottom-sec small {
     opacity: .9;
 }
+
+/*footer section end here*/
