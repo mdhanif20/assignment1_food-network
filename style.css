@@ -25,6 +25,7 @@ body {
 
 .navBar_logo img {
     width: 23%;
+    padding-top: 3%
 }
 
 .navbar_pages {
@@ -45,21 +46,21 @@ body {
 .navbar_pages ul li a {
     text-decoration: none;
     color: #222;
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 600;
     transition: .3s;
 }
 
 .navbar_pages ul li:hover a {
-    color: #FC723D;
+    color: #FFF;
 }
 
 .navBar-header {
     display: flex;
-    border-bottom: 1px solid gray;
     padding: 0% 5%;
-    box-shadow: 1px 0px 3px grey;
-    opacity: .8;
+    box-shadow: 1px 0px 3px #fd5633;
+    opacity: 1;
+    background-color: #FD733E;
 }
 
 /*navBar css end here*/
